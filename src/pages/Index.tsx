@@ -1,7 +1,7 @@
 import HeroSection from "@/components/landing/HeroSection";
 import UVPSection from "@/components/landing/UVPSection";
 import BenefitsSection from "@/components/landing/BenefitsSection";
-import SocialProofSection from "@/components/landing/SocialProofSection";
+
 import GuaranteeSection from "@/components/landing/GuaranteeSection";
 import NotForSection from "@/components/landing/NotForSection";
 import DeliverablesSection from "@/components/landing/DeliverablesSection";
