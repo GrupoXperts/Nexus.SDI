@@ -15,7 +15,7 @@ const HeroSection = () => {
 
       {/* Nav */}
       <nav className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-6 md:px-12 py-5">
-        <img src={nexusLogo} alt="Nexus Protect" className="h-36 md:h-42" />
+        <img src={nexusLogo} alt="Nexus Protect" className="h-36 md:h-42 logo-glow" />
         <Button variant="cta-outline" size="sm" className="border-accent-foreground text-accent-foreground hover:bg-accent hover:text-accent-foreground" asChild>
           <a href="https://wa.me/573195992929" target="_blank" rel="noopener noreferrer">Contacto</a>
         </Button>
