@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['Montserrat', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +50,16 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        nexus: {
+          blue: "hsl(var(--nexus-blue))",
+          "blue-light": "hsl(var(--nexus-blue-light))",
+          red: "hsl(var(--nexus-red))",
+          "red-dark": "hsl(var(--nexus-red-dark))",
+          navy: "hsl(var(--nexus-navy))",
+          steel: "hsl(var(--nexus-steel))",
+          surface: "hsl(var(--nexus-surface))",
+          gold: "hsl(var(--nexus-gold))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",

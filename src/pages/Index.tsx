@@ -1,13 +1,36 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/landing/HeroSection";
+import UVPSection from "@/components/landing/UVPSection";
+import BenefitsSection from "@/components/landing/BenefitsSection";
+import SocialProofSection from "@/components/landing/SocialProofSection";
+import GuaranteeSection from "@/components/landing/GuaranteeSection";
+import NotForSection from "@/components/landing/NotForSection";
+import DeliverablesSection from "@/components/landing/DeliverablesSection";
+import BonusSection from "@/components/landing/BonusSection";
+import AnchorSection from "@/components/landing/AnchorSection";
+import FAQSection from "@/components/landing/FAQSection";
+import UrgencySection from "@/components/landing/UrgencySection";
+import FinalCTASection from "@/components/landing/FinalCTASection";
+import FooterSection from "@/components/landing/FooterSection";
+import WhatsAppButton from "@/components/landing/WhatsAppButton";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="overflow-x-hidden">
+      <HeroSection />
+      <UVPSection />
+      <BenefitsSection />
+      <SocialProofSection />
+      <GuaranteeSection />
+      <NotForSection />
+      <DeliverablesSection />
+      <BonusSection />
+      <AnchorSection />
+      <FAQSection />
+      <UrgencySection />
+      <FinalCTASection />
+      <FooterSection />
+      <WhatsAppButton />
+    </main>
   );
 };
 
