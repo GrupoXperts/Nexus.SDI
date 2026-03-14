@@ -19,7 +19,7 @@ const Index = () => {
       <HeroSection />
       <UVPSection />
       <BenefitsSection />
-      <SocialProofSection />
+      
       <GuaranteeSection />
       <NotForSection />
       <DeliverablesSection />
