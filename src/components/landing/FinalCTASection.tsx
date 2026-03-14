@@ -33,9 +33,12 @@ const FinalCTASection = () => {
               variant="cta-outline"
               size="lg"
               className="h-16 px-10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground rounded-xl gap-2"
+              asChild
             >
-              <Phone className="w-5 h-5" />
-              Llamar ahora
+              <a href="tel:+573195992929">
+                <Phone className="w-5 h-5" />
+                Llamar ahora
+              </a>
             </Button>
           </div>
         </motion.div>
