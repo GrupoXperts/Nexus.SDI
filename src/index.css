@@ -105,4 +105,10 @@
   .shadow-elevated {
     box-shadow: var(--shadow-elevated);
   }
+  .logo-glow {
+    filter: drop-shadow(0 0 12px hsla(0, 0%, 100%, 0.7)) drop-shadow(0 0 30px hsla(0, 0%, 100%, 0.4));
+  }
+  .logo-glow-dark {
+    filter: drop-shadow(0 0 10px hsla(0, 85%, 50%, 0.5)) drop-shadow(0 0 25px hsla(0, 85%, 50%, 0.3));
+  }
 }
