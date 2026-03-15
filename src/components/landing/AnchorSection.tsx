@@ -30,9 +30,11 @@ const AnchorSection = () => {
             Con Nexus Protect, obtiene protección premium a un precio competitivo. No espere a que sea demasiado tarde.
           </p>
 
-          <Button variant="hero" size="lg" className="h-16 px-12 text-lg rounded-xl gap-3">
-            SOLICITAR DIAGNÓSTICO GRATUITO AHORA
-            <ArrowRight className="w-5 h-5" />
+          <Button variant="hero" size="lg" className="h-16 px-12 text-lg rounded-xl gap-3" asChild>
+            <a href="https://forms.gle/Aa7thXN2LHqWat2CA" target="_blank" rel="noopener noreferrer">
+              SOLICITAR DIAGNÓSTICO GRATUITO AHORA
+              <ArrowRight className="w-5 h-5" />
+            </a>
           </Button>
         </motion.div>
       </div>

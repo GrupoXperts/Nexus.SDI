@@ -30,9 +30,12 @@ const UrgencySection = () => {
             variant="default"
             size="lg"
             className="h-14 px-10 bg-primary-foreground text-accent font-display font-bold hover:bg-primary-foreground/90 rounded-xl gap-2 flex-shrink-0"
+            asChild
           >
-            QUIERO MI SISTEMA CERTIFICADO
-            <ArrowRight className="w-5 h-5" />
+            <a href="https://forms.gle/Aa7thXN2LHqWat2CA" target="_blank" rel="noopener noreferrer">
+              QUIERO MI SISTEMA CERTIFICADO
+              <ArrowRight className="w-5 h-5" />
+            </a>
           </Button>
         </motion.div>
       </div>
