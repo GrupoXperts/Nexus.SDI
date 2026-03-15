@@ -25,9 +25,11 @@ const FinalCTASection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg" className="h-16 px-12 text-lg rounded-xl gap-3">
-              SOLICITAR DIAGNÓSTICO GRATUITO
-              <ArrowRight className="w-5 h-5" />
+            <Button variant="hero" size="lg" className="h-16 px-12 text-lg rounded-xl gap-3" asChild>
+              <a href="https://forms.gle/Aa7thXN2LHqWat2CA" target="_blank" rel="noopener noreferrer">
+                SOLICITAR DIAGNÓSTICO GRATUITO
+                <ArrowRight className="w-5 h-5" />
+              </a>
             </Button>
             <Button
               variant="cta-outline"

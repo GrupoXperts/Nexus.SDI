@@ -52,8 +52,10 @@ const HeroSection = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button variant="hero" size="lg" className="h-14 px-10 text-lg rounded-lg">
-              SOLICITAR DIAGNÓSTICO GRATUITO
+            <Button variant="hero" size="lg" className="h-14 px-10 text-lg rounded-lg" asChild>
+              <a href="https://forms.gle/Aa7thXN2LHqWat2CA" target="_blank" rel="noopener noreferrer">
+                SOLICITAR DIAGNÓSTICO GRATUITO
+              </a>
             </Button>
             <Button variant="cta-outline" size="lg" className="h-14 px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
               Ver cómo funciona
